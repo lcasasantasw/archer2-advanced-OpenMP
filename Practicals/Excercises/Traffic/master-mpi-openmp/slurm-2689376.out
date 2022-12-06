@@ -1,0 +1,12 @@
+Length of road is 4800000
+Running  on 128 processes
+Number of iterations is 20000 
+Target density of cars is 0.503000 
+Initialising ...
+...done
+
+Actual density of cars is 0.503000
+
+Finished
+Time = 50.186886
+At iteration 20001 average velocity is 0.988071 

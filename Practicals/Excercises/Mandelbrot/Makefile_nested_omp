@@ -14,12 +14,12 @@ LIB=    -lm
 #
 # Object files
 #
-OBJ=    area.o
+OBJ=    area_nested_omp.o
 
 #
 # Compile
 #
-area.x:   $(OBJ)
+area_nested_omp.x:   $(OBJ)
 	$(CC) -o $@ $(OBJ) $(LIB)
 
 .c.o:
@@ -29,4 +29,4 @@ area.x:   $(OBJ)
 # Clean out object files and the executable.
 #
 clean:
-	rm *.o area.x
+	rm *.o area_nested_omp.x

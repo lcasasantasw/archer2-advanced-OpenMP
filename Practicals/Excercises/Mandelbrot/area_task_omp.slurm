@@ -27,6 +27,6 @@ export OMP_NUM_THREADS=$t
 
 # Launch the parallel job
 #   Additional srun options to pin one thread per physical core
-srun --hint=nomultithread ./area.x
+srun --hint=nomultithread ./area_task_omp.x
 done
 

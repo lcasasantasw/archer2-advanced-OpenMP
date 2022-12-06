@@ -17,7 +17,7 @@ OBJ = mpca.o mplib.o
 # This rule says that the executable md depends on the object files in OBJ
 # and that they need to be complied then linked to produce the executable.
 #
-mpca:	$(OBJ)
+mpca.x:	$(OBJ)
 	$(CC) $(CFLAGS) -o $@ $(OBJ)  
 .c.o:
 	$(CC) $(CFLAGS) -c $<
@@ -26,7 +26,7 @@ mpca:	$(OBJ)
 # If the comand "make clean" is typed it will work
 #
 clean:
-	rm *.o mpca
+	rm *.o mpca.x
 #
 
 
